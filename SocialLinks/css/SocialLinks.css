@@ -46,21 +46,26 @@
 #places .donate {
   position: relative;
 }
-#places .twitter { background-color: rgba(45,118,185, .42); background-position: 3px -50px; }
-#places .github  { background-color: rgba(80,108,123, .42); background-position: 3px -100px; }
-#places .github  { background-color: rgba(65,131,196, .42); background-position: 3px -100px; }
-#places .rss     { background-color: rgba(255,109, 0, .42); background-position: 3px -150px; }
+  #places .twitter { background-color: rgba(45,118,185, .42); background-position: 3px -50px; }
+/*  #places .github  { background-color: rgba(80,108,123, .42); background-position: 3px -100px; }*/
+  #places .github  { background-color: rgba(88,94,94, .42); background-position: 3px -100px; }
+  #places .rss     { background-color: rgba(255,109, 0, .42); background-position: 3px -265px; }
+  #places .linkedin{ background-color: rgba(87,167, 209, .42); background-position: 3px -188px; }
+  #places .epfl    { background-color: rgba(226,0, 26, .42); background-position: 3px -230px; }
 
-#places li:hover .icon {
-  width: 208px;
-  color: white;
-}
+  #places li:hover .icon {
+    width: 208px;
+    color: white;
+  }
 
-.touch #places li .icon    , #places li:hover .icon    { background-color: #d91e76; }
-.touch #places li .twitter , #places li:hover .twitter { background-color: #2d76b9; }
-.touch #places li .github  , #places li:hover .github  { background-color: #506c7b; }
-.touch #places li .github  , #places li:hover .github  { background-color: #4183c4; }
-.touch #places li .rss     , #places li:hover .rss     { background-color: #ff6d00; }
+  .touch #places li .icon    , #places li:hover .icon    { background-color: #d91e76; }
+  .touch #places li .twitter , #places li:hover .twitter { background-color: #2d76b9; }
+/*  .touch #places li .github  , #places li:hover .github  { background-color: #506c7b; }*/
+  .touch #places li .github  , #places li:hover .github  { background-color: #585E5E; }
+  .touch #places li .rss     , #places li:hover .rss     { background-color: #ff6d00; }
+  .touch #places li .linkedin, #places li:hover .linkedin     { background-color: #4BA0CD; }
+  .touch #places li .epfl, #places li:hover .epfl     { background-color: #E2001A; }
+
 
 /* This is the sexiness behind the hovers: */
 #places li:after {
